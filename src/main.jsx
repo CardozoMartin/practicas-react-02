@@ -3,9 +3,11 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 
 import Home from './components/Home.jsx'
+import Contador from './components/Contador.jsx'
+import App from './App.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Home></Home>
+    <App></App>
   </StrictMode>,
 )
